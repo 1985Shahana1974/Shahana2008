@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — Projects by Shahana Murugesan IT</title>
+  <meta name="description" content="Portfolio of projects: dashboards, placement portals, LMS, and recruitment tooling built by Shahana Murugesan IT." />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header" role="banner">
+    <div class="wrap">
+      <a href="index.html" class="brand" aria-label="Home">
+        <img src="assets/logo.svg" alt="SMIT logo" class="logo" />
+        <div class="brand-text">
+          <h1>Shahana Murugesan Information Technology</h1>
+        </div>
+      </a>
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap" role="main" aria-labelledby="portfolio-heading">
+    <h2 id="portfolio-heading">Portfolio</h2>
+    <p class="muted">Case studies and short descriptions of selected projects.</p>
+
+    <article class="case">
+      <h3>Attendance Dashboard</h3>
+      <p class="muted">Overview: Admin dashboard to manage attendance across classes with analytics and CSV export.</p>
+      <ul>
+        <li>Stack: React, Node.js, PostgreSQL</li>
+        <li>Key feature: CSV export & bulk updates</li>
+      </ul>
+    </article>
+
+    <article class="case">
+      <h3>Placement Portal App</h3>
+      <p class="muted">Overview: Candidate management app with interview scheduling and profile scoring.</p>
+      <ul>
+        <li>Stack: React Native, Firebase</li>
+        <li>Key feature: Offline candidate notes & sync</li>
+      </ul>
+    </article>
+
+    <article class="case">
+      <h3>Bootcamp LMS</h3>
+      <p class="muted">Micro-learning platform for freshers to practice tasks and earn certificates.</p>
+      <ul>
+        <li>Stack: Static site generator + simple backend</li>
+        <li>Key feature: Task-based micro-assignments and mentor reviews</li>
+      </ul>
+    </article>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year"></span> Shahana Murugesan Information Technology</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
